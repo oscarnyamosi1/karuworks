@@ -1,13 +1,25 @@
 import { Link } from "wouter";
 import "./Home.css";
+import React from "react";
 
-const inventions = [
+interface Invention {
+  title: string;
+  desc: string;
+  media: {
+    type: "image" | "video";
+    url: string;
+    link: string;
+  };
+
+}
+
+const inventions: Invention[] = [
   {
     title: "Sukumawiki Cutting Machine",
     desc: "Designed for fast, uniform cutting of sukumawiki in bulk for homes, schools, and institutions.",
     media: {
       type: "image",
-      url: "/pictures/vlcsnap-2026-06-17-04h24m27s421.png", // replace later
+      url: "/pictures/skuma1.png", // replace later
       link: "https://your-video-or-demo-link.com",
     },
   },
@@ -16,7 +28,7 @@ const inventions = [
     desc: "Automated ugali cooking system built for schools and large-scale feeding programs.",
     media: {
       type: "video",
-      url: "https://img.youtube.com/vi/VIDEO_ID/0.jpg", // youtube thumbnail
+      url: "/pictures/ugali1.png", // youtube thumbnail
       link: "https://youtube.com/watch?v=VIDEO_ID",
     },
   },
@@ -43,7 +55,7 @@ const inventions = [
     desc: "Professional repair and restoration of coolers for homes, shops, and businesses.",
     media: {
       type: "image",
-      url: "/placeholders/cooler-repair.jpg",
+      url: "/pictures/cooler-repair.png",
       link: "#",
     },
   },
@@ -52,7 +64,7 @@ const inventions = [
     desc: "Reliable diagnostics and repair services for domestic and commercial refrigeration systems.",
     media: {
       type: "image",
-      url: "/placeholders/fridge-repair.jpg",
+      url: "/pictures/freezer-repair.png",
       link: "#",
     },
   },
@@ -65,7 +77,7 @@ const stats = [
   { value: "100%", label: "Satisfaction Rate" },
 ];
 
-function Home() {
+export default function Home() {
   return (
     <div className="home">
 
@@ -167,4 +179,3 @@ function Home() {
   );
 }
 
-export default Home;
