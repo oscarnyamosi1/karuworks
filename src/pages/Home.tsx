@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import "./Home.css";
 import React from "react";
-
+import Loader from "@/components/Loader";
 interface Invention {
   title: string;
   desc: string;
@@ -79,104 +79,106 @@ const stats = [
 
 export default function Home() {
   return (
-    <div className="home">
+    <>
+      < Loader />
+      <div className="home">
+        {/* HERO (unchanged) */}
+        <section className="hero">
+          <div className="hero-bg">
+            <div className="hero-overlay" />
+            <img src="/pictures/hero.png" loading="eager" className="hero-overlay" />
+          </div>
 
-      {/* HERO (unchanged) */}
-      <section className="hero">
-        <div className="hero-bg">
-          <div className="hero-overlay" />
-          <img src="/pictures/hero.png" loading="eager" className="hero-overlay" />
-        </div>
+          <div className="hero-content container">
+            <div className="hero-text">
+              <span className="tag">About KARUWORKS</span>
+              <h1>Innovating, Repairing, and Building Solutions <span className="highlight">for Africa</span></h1>
+              <p>A Kenyan engineering company dedicated to innovation, appliance repair, machine fabrication, and industrial solutions.</p>
 
-        <div className="hero-content container">
-          <div className="hero-text">
-            <span className="tag">About KARUWORKS</span>
-            <h1>Innovating, Repairing, and Building Solutions <span className="highlight">for Africa</span></h1>
-            <p>A Kenyan engineering company dedicated to innovation, appliance repair, machine fabrication, and industrial solutions.</p>
-
-            <div className="hero-actions">
-              <a href="/services" className="btn btn-primary">Our Work</a>
-              <a href="/contact" className="btn btn-secondary">Get a Quote</a>
+              <div className="hero-actions">
+                <a href="/services" className="btn btn-primary">Our Work</a>
+                <a href="/contact" className="btn btn-secondary">Get a Quote</a>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* STATS (unchanged) */}
-      <section className="stats-banner">
-        <div className="container">
-          <div className="stats-grid">
-            {stats.map(stat => (
-              <div className="stat-item" key={stat.label}>
-                <span className="stat-value">{stat.value}</span>
-                <span className="stat-label">{stat.label}</span>
-              </div>
-            ))}
+        {/* STATS (unchanged) */}
+        <section className="stats-banner">
+          <div className="container">
+            <div className="stats-grid">
+              {stats.map(stat => (
+                <div className="stat-item" key={stat.label}>
+                  <span className="stat-value">{stat.value}</span>
+                  <span className="stat-label">{stat.label}</span>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* INNOVATIONS SECTION (UPDATED) */}
-      <section className="section">
-        <div className="container">
-          <div className="section-title">
-            <h2>Our Inventions & Innovations</h2>
-            <span className="section-accent" />
-            <p>
-              Locally engineered machines and solutions designed to improve efficiency in homes,
-              schools, and industries across Kenya.
-            </p>
+        {/* INNOVATIONS SECTION (UPDATED) */}
+        <section className="section">
+          <div className="container">
+            <div className="section-title">
+              <h2>Our Inventions & Innovations</h2>
+              <span className="section-accent" />
+              <p>
+                Locally engineered machines and solutions designed to improve efficiency in homes,
+                schools, and industries across Kenya.
+              </p>
+            </div>
+
+  <div className="grid-3 services-grid">
+    {inventions.map(item => (
+      <div className="card service-card invention-card" key={item.title}>
+
+        {/* MEDIA SECTION */}
+        <a
+          href={item.media.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="invention-media"
+        >
+          <div className="media-wrapper">
+
+            {/* SQUARE IMAGE CONTAINER */}
+            <div className="media-square">
+              <img
+                src={item.media.url}
+                alt={item.title}
+                loading="lazy"
+                className="invention-img"
+              />
+
+              {/* VIDEO BADGE */}
+              {item.media.type === "video" && (
+                <div className="video-badge">
+                  ▶ Play Video
+                </div>
+              )}
+            </div>
+
           </div>
+        </a>
 
-<div className="grid-3 services-grid">
-  {inventions.map(item => (
-    <div className="card service-card invention-card" key={item.title}>
+        {/* TEXT */}
+        <h3>{item.title}</h3>
+        <p>{item.desc}</p>
 
-      {/* MEDIA SECTION */}
-      <a
-        href={item.media.link}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="invention-media"
-      >
-        <div className="media-wrapper">
-
-          {/* SQUARE IMAGE CONTAINER */}
-          <div className="media-square">
-            <img
-              src={item.media.url}
-              alt={item.title}
-              loading="lazy"
-              className="invention-img"
-            />
-
-            {/* VIDEO BADGE */}
-            {item.media.type === "video" && (
-              <div className="video-badge">
-                ▶ Play Video
-              </div>
-            )}
+      </div>
+    ))}
+  </div>
+            <div className="services-cta">
+              <Link href="/services" className="btn btn-outline">
+                View More Innovations
+              </Link>
+            </div>
           </div>
+        </section>
 
-        </div>
-      </a>
-
-      {/* TEXT */}
-      <h3>{item.title}</h3>
-      <p>{item.desc}</p>
-
-    </div>
-  ))}
-</div>
-          <div className="services-cta">
-            <Link href="/services" className="btn btn-outline">
-              View More Innovations
-            </Link>
-          </div>
-        </div>
-      </section>
-
-    </div>
+      </div>
+    </>
   );
 }
 

@@ -38,6 +38,27 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+           /* ===== LOADING SCREEN ===== */
+#loader {
+  z-index: 9999999;
+  position: fixed; inset: 0; background: #0a0f1e; z-index: 9999;color:white;
+  display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 16px;
+}
+.loader-logo { font-size: 32px; font-weight: 800; }
+.loader-logo span { color: #c94415; }
+.loader-bar { width: 200px; height: 3px; background: var(--border); border-radius: 2px; overflow: hidden; }
+.loader-fill { height: 100%; background: linear-gradient(90deg, #8e3211a0, #c94415); animation: loadFill 2.2s ease forwards; }
+@keyframes loadFill { from{width:0} to{width:100%} }
+
+#loader img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+</style>
+
 </head>
   <body>
     <div id="root"></div>
