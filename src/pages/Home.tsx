@@ -85,7 +85,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-bg">
           <div className="hero-overlay" />
-          <img src="/pictures/hero.png" className="hero-overlay" />
+          <img src="/pictures/hero.png" loading="eager" className="hero-overlay" />
         </div>
 
         <div className="hero-content container">
@@ -146,6 +146,7 @@ export default function Home() {
             <img
               src={item.media.url}
               alt={item.title}
+              loading="lazy"
               className="invention-img"
             />
 
