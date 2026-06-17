@@ -1,0 +1,9 @@
+node_moduele/
+.DS_Store
+dist/
+build/
+.replit-artifacts/
+.replit/
+*.log
+*.env
+*.cache
