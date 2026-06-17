@@ -73,7 +73,7 @@ function Home() {
       <section className="hero">
         <div className="hero-bg">
           <div className="hero-overlay" />
-          <img src="/pictures/vlcsnap-2026-06-17-04h20m06s941.png" className="hero-overlay" />
+          <img src="/pictures/hero.png" className="hero-overlay" />
         </div>
 
         <div className="hero-content container">
