@@ -1,9 +1,7 @@
-node_moduele/
+node_modules/
 .DS_Store
 dist/
 build/
 .replit-artifacts/
 .replit/
-*.log
 *.env
-*.cache
