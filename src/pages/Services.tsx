@@ -34,12 +34,10 @@ const servicesList = [
     ),
     items: [
       "Agro-processing Machines (Maize Mills, Threshers)",
-      "Food Processing Equipment",
+      "Food Processing Equipment eg. Ugali cooker Chapati/Roti maker",
       "School Workshop Machinery",
       "Metal Fabrication & Welding",
       "Custom Industrial Frames & Structures",
-      "Water Tanks & Reservoirs",
-      "Grain Storage Equipment",
       "Poultry & Livestock Equipment",
     ],
   },
@@ -64,7 +62,6 @@ const servicesList = [
       "LED Lighting Upgrades",
       "Backup Battery Systems",
       "Energy Audits & Consulting",
-      "EV Charging Station Setup",
     ],
   },
   {
@@ -83,35 +80,14 @@ const servicesList = [
     ),
     items: [
       "Borehole Pumping Systems",
-      "Water Reticulation & Piping",
+      "Recoiling and Rewinding",
+      "Water Reticulation & Piping in systems",
       "Industrial Electrical Installations",
       "Generator Installations & Servicing",
       "CCTV & Security Systems",
       "Irrigation System Setup",
       "Workshop Equipment Installation",
       "Fire Suppression Systems",
-    ],
-  },
-  {
-    id: "recycling",
-    title: "Recycling Solutions",
-    subtitle: "Sustainable futures, now",
-    heroImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-    icon: (
-      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <polyline points="1 4 1 10 7 10"/><polyline points="23 20 23 14 17 14"/>
-        <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4-4.64 4.36A9 9 0 0 1 3.51 15"/>
-      </svg>
-    ),
-    items: [
-      "Plastic Waste Collection & Processing",
-      "E-Waste (Electronics) Recycling",
-      "Metal & Scrap Collection",
-      "Paper & Cardboard Recycling",
-      "Hospital Waste Management",
-      "School Recycling Programs",
-      "Compost Systems",
-      "Waste-to-Energy Consulting",
     ],
   },
   {
@@ -129,10 +105,9 @@ const servicesList = [
       "TV & Monitor Repair",
       "Audio Equipment Servicing",
       "UPS & Inverter Repair",
+      "High Quality Custom Made Inverters",
       "Laptop & Desktop Repair",
       "Printer & Photocopier Servicing",
-      "Power Supply Repair",
-      "Electronic Meter Calibration",
     ],
   },
 ];
@@ -180,14 +155,14 @@ export default function Services() {
                     ))}
                   </ul>
                   <div className="service-row-actions">
-                    <a href="tel:+254700000000" className="btn btn-primary">
+                    <a href="tel:+2547084588281" className="btn btn-primary">
                       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.63 3.18 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 5.57 5.57l1.24-1.24a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
                       </svg>
                       Get a Quote
                     </a>
                     <a
-                      href={`https://wa.me/254700000000?text=Hello%2C%20I%20need%20help%20with%20${encodeURIComponent(svc.title)}`}
+                      href={`https://wa.me/2547084588281?text=Hello%2C%20I%20need%20help%20with%20${encodeURIComponent(svc.title)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-whatsapp"

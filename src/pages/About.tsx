@@ -1,4 +1,5 @@
 import "./About.css";
+import { CheckCircleIcon,SchoolIcon } from "lucide-react";
 
 const values = [
   {
@@ -43,24 +44,24 @@ const values = [
 
 const team = [
   {
-    name: "Joseph Karua",
+    name: "Staff #1",
     role: "Founder & Lead Engineer",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+    image: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781810882/vlcsnap-2026-06-17-04h23m03s833_jui5ru.png",
   },
   {
-    name: "Mary Akinyi",
+    name: "Staff #2",
     role: "Operations Manager",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80",
+    image: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781811395/IMG-20260616-WA0001_c655un.jpg",
   },
   {
-    name: "Samuel Gitau",
+    name: "Staff #3 ",
     role: "Senior Technician",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+    image: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781811392/IMG-20260616-WA0007_vrpx21.jpg",
   },
   {
-    name: "Diana Mutua",
+    name: "Staff #4",
     role: "Solar & Electrical Lead",
-    image: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&q=80",
+    image: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781810844/vlcsnap-2026-06-17-04h25m11s196_yjt5f5.png",
   },
 ];
 
@@ -68,7 +69,7 @@ export default function About() {
   return (
     <div className="about">
       <div className="page-hero about-hero">
-        <div className="page-hero-overlay" />
+        <img src="https://res.cloudinary.com/dw0l7b86h/image/upload/v1781810910/vlcsnap-2026-06-17-04h23m05s409_hnhcmz.png" alt="Karu works staff repairing a leaking gas cooker at kisii school" className="page-hero-overlay" />
         <div className="container page-hero-content">
           <span className="tag">About Us</span>
           <h1>Who We Are</h1>
@@ -152,7 +153,7 @@ export default function About() {
             {team.map(member => (
               <div className="team-card" key={member.name}>
                 <div className="team-img-wrap">
-                  <img src={member.image} alt={member.name} className="team-img" />
+                  <img src={member.image} alt={member.name} loading="lazy" className="team-img" />
                 </div>
                 <div className="team-info">
                   <h3>{member.name}</h3>
@@ -165,6 +166,34 @@ export default function About() {
       </section>
 
       <section className="section certifications-section">
+        <div className="container">
+          <div className="section-title">
+            <h2>Certifications & Affiliations</h2>
+            <span className="section-accent" />
+            <p>We operate to the highest professional and regulatory standards in Kenya.</p>
+          </div>
+          <div className="cert-grid">
+            {[
+              "Kisii School (Sukuma Wiki Cutting Machine)",
+              "Kereri Girls Kisii (Sukuma Wiki Cutting Machine)",
+              "Kebirigo Boys (Sukuma Wiki Cutting Machine)",
+              "HomaBay High School (Sukuma Wiki Cutting Machine)",
+              "Agoro Sare High School (Sukuma Wiki Cutting Machine)",
+              "Oyugi Ogango School",
+              "Kisii School (Ugali Cooking Machine) Approved for use",
+              "Kebirigo Boys (Ugali Cooking Machine) Approved fior use",
+            ].map(cert => (
+              <div className="cert-item" key={cert}>
+                <CheckCircleIcon/>
+                <span>{cert}</span>
+                <SchoolIcon />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* <section className="section certifications-section">
         <div className="container">
           <div className="section-title">
             <h2>Certifications & Affiliations</h2>
@@ -189,7 +218,7 @@ export default function About() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

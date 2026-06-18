@@ -4,18 +4,90 @@ import "./Gallery.css";
 const categories = ["All", "Appliance Repair", "Fabrication", "Solar", "Industrial", "Recycling"];
 
 const galleryItems = [
-  { id: 1, category: "Appliance Repair", title: "Fridge Repair", image: "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=600&q=80" },
-  { id: 2, category: "Solar", title: "Solar Panel Installation", image: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&q=80" },
-  { id: 3, category: "Fabrication", title: "Custom Metal Frame", image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&q=80" },
-  { id: 4, category: "Industrial", title: "Borehole Pump Setup", image: "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=600&q=80" },
-  { id: 5, category: "Recycling", title: "E-Waste Processing", image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" },
-  { id: 6, category: "Appliance Repair", title: "Washing Machine Repair", image: "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=600&q=80" },
-  { id: 7, category: "Fabrication", title: "Maize Thresher Build", image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80" },
-  { id: 8, category: "Solar", title: "Off-grid Home System", image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=80" },
-  { id: 9, category: "Industrial", title: "Electrical Installation", image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=80" },
-  { id: 10, category: "Appliance Repair", title: "Cooker Repair", image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80" },
-  { id: 11, category: "Recycling", title: "Plastic Sorting", image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=600&q=80" },
-  { id: 12, category: "Fabrication", title: "Tank Fabrication", image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80" },
+  {
+    id: 1,
+    category: "Appliance Repair",
+    title: "Fridge Repair",
+    image:
+      "/gallery/cooler-repair.png",
+  },
+  {
+    id: 2,
+    category: "Solar",
+    title: "washing machine repair",
+    image:
+      "/gallery/vlcsnap-2026-06-17-04h24m27s421.png",
+  },
+  {
+    id: 3,
+    category: "Fabrication",
+    title: "Custom Metal Frame",
+    image:
+      "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&q=80",
+  },
+  {
+    id: 4,
+    category: "Industrial",
+    title: "Borehole Pump Setup",
+    image:
+      "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=600&q=80",
+  },
+  {
+    id: 5,
+    category: "Recycling",
+    title: "Glass Recycling Processing",
+    image:
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+  },
+  {
+    id: 6,
+    category: "Appliance Repair",
+    title: "Cooker Repair",
+    image:
+      "/gallery/vlcsnap-2026-06-17-04h17m04s349.png",
+  },
+  {
+    id: 7,
+    category: "Fabrication",
+    title: "Maize Thresher Build",
+    image:
+      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80",
+  },
+  {
+    id: 8,
+    category: "Solar",
+    title: "Off-grid Home System",
+    image:
+      "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=80",
+  },
+  {
+    id: 9,
+    category: "Industrial",
+    title: "Electrical Installation",
+    image:
+      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=80",
+  },
+  {
+    id: 10,
+    category: "Appliance Repair",
+    title: "Cooker Repair",
+    image:
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80",
+  },
+  {
+    id: 11,
+    category: "Recycling",
+    title: "Glass Sorting",
+    image:
+      "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=600&q=80",
+  },
+  {
+    id: 12,
+    category: "Fabrication",
+    title: "Tank Fabrication",
+    image:
+      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80",
+  },
 ];
 
 export default function Gallery() {

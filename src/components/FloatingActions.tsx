@@ -4,7 +4,7 @@ export default function FloatingActions() {
   return (
     <div className="floating-actions">
       <a
-        href="https://wa.me/254700000000?text=Hello%20KARUWORKS%2C%20I%20would%20like%20to%20inquire%20about%20your%20services."
+        href="https://wa.me/2547084588281?text=Hello%20KARUWORKS%2C%20I%20would%20like%20to%20inquire%20about%20your%20services."
         target="_blank"
         rel="noopener noreferrer"
         className="fab fab-whatsapp"
@@ -17,7 +17,7 @@ export default function FloatingActions() {
         <span className="fab-label">WhatsApp</span>
       </a>
       <a
-        href="tel:+254700000000"
+        href="tel:+2547084588281"
         className="fab fab-call"
         aria-label="Call us"
       >

@@ -180,7 +180,8 @@
   }
 
   .nav-links.open {
-    transform: translateY(0);
+    /* transform: translateY(0); */
+    top:90vh;
   }
 
   .nav-link {

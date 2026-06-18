@@ -68,7 +68,17 @@
 
   .fab {
     padding: 13px 16px;
+    min-width:140px;
   }
+
+.fab-label {
+  opacity: 1;
+  transform: translateX(0);
+}
+.fab-call .fab-label {
+  opacity:1;
+}
+
 
   .fab:hover {
     max-width: 140px;
