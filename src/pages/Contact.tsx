@@ -12,7 +12,7 @@ export default function Contact() {
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     const msg = `Hello KARUWORKS,%0A%0AName: ${form.name}%0AEmail: ${form.email}%0APhone: ${form.phone}%0AService: ${form.service}%0A%0AMessage: ${form.message}`;
-    window.open(`https://wa.me/2547084588281?text=${msg}`, "_blank");
+    window.open(`https://wa.me/254708458281?text=${msg}`, "_blank");
     setSubmitted(true);
   }
 
@@ -35,7 +35,7 @@ export default function Contact() {
               <span className="section-accent" style={{ margin: "12px 0 24px", display: "block" }} />
 
               <div className="contact-cards">
-                <a href="tel:+2547084588281" className="contact-card contact-card-call">
+                <a href="tel:+254708458281" className="contact-card contact-card-call">
                   <div className="contact-card-icon">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.63 3.18 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 5.57 5.57l1.24-1.24a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
@@ -52,7 +52,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://wa.me/2547084588281?text=Hello%20KARUWORKS%2C%20I%20need%20assistance."
+                  href="https://wa.me/254708458281?text=Hello%20KARUWORKS%2C%20I%20need%20assistance."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-card contact-card-whatsapp"
@@ -168,7 +168,7 @@ export default function Contact() {
                       </svg>
                       Send via WhatsApp
                     </button>
-                    <a href="tel:+2547084588281" className="btn btn-call">
+                    <a href="tel:+254708458281" className="btn btn-call">
                       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.63 3.18 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 5.57 5.57l1.24-1.24a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
                       </svg>

@@ -155,14 +155,14 @@ export default function Services() {
                     ))}
                   </ul>
                   <div className="service-row-actions">
-                    <a href="tel:+2547084588281" className="btn btn-primary">
+                    <a href="tel:+254708458281" className="btn btn-primary">
                       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.63 3.18 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 5.57 5.57l1.24-1.24a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
                       </svg>
                       Get a Quote
                     </a>
                     <a
-                      href={`https://wa.me/2547084588281?text=Hello%2C%20I%20need%20help%20with%20${encodeURIComponent(svc.title)}`}
+                      href={`https://wa.me/254708458281?text=Hello%2C%20I%20need%20help%20with%20${encodeURIComponent(svc.title)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-whatsapp"

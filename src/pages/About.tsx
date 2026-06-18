@@ -168,7 +168,7 @@ export default function About() {
       <section className="section certifications-section">
         <div className="container">
           <div className="section-title">
-            <h2>Certifications & Affiliations</h2>
+            <h2>Affiliations</h2>
             <span className="section-accent" />
             <p>We operate to the highest professional and regulatory standards in Kenya.</p>
           </div>
