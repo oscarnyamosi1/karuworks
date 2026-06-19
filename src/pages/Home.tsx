@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import "./Home.css";
 import React from "react";
-import Loader from "@/components/Loader";
+// import Loader from "@/components/Loader";
 import { Check, VenetianMask, Verified } from "lucide-react";
 
 // interface Invention {
@@ -153,13 +153,13 @@ const institutions = [
 export default function Home() {
   return (
     <>
-      < Loader />
+      {/* < Loader /> */}
       <div className="home">
         {/* HERO (unchanged) */}
         <section className="hero">
           <div className="hero-bg">
             <div className="hero-overlay" />
-            <img src="/pictures/hero.png" loading="eager" className="hero-overlay" />
+            <img src="/pictures/hero.png" loading="lazy" className="hero-overlay" />
           </div>
 
           <div className="hero-content container">
