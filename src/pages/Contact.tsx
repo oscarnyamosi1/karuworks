@@ -43,7 +43,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="contact-card-label">Direct Call</p>
-                    <p className="contact-card-value">+254 708 458 8281</p>
+                    <p className="contact-card-value">+254 708 458 281</p>
                     <p className="contact-card-sub">Mon–Sat, 8am–6pm</p>
                   </div>
                   <svg className="contact-card-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -136,7 +136,7 @@ export default function Contact() {
                     </div>
                     <div className="form-group">
                       <label htmlFor="phone">Phone Number *</label>
-                      <input type="tel" id="phone" name="phone" value={form.phone} onChange={handleChange} placeholder="+254 708 458 8281" required />
+                      <input type="tel" id="phone" name="phone" value={form.phone} onChange={handleChange} placeholder="+254 708 458 281" required />
                     </div>
                   </div>
                   <div className="form-group">
