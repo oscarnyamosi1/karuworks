@@ -3,6 +3,7 @@ import "./Home.css";
 import React from "react";
 // import Loader from "@/components/Loader";
 import { Check, VenetianMask, Verified } from "lucide-react";
+import SEO from "@/components/SEO"
 
 // interface Invention {
 //   title: string;
@@ -154,6 +155,14 @@ export default function Home() {
   return (
     <>
       {/* < Loader /> */}
+      <SEO
+        title="Karuworks the best engineering and fabrication company in Kisii & Kenya"
+        description="Karuworks builds innovative software, robotics, and creative digital projects.We operate in and around Kisii,Nyamira ,Kericho,Kisumu,Eldoret in Kenya"
+        url="https://karuworks.com"
+        image="https://karuworks.com/og-image.png"
+        keywords="karuworks,karu,kaluworks,fridge repair,repairs,kisii,engineering kisii, robotics, software, innovation"
+      />
+
       <div className="home">
         {/* HERO (unchanged) */}
         <section className="hero">
