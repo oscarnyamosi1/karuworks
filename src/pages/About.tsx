@@ -99,11 +99,11 @@ export default function About() {
                 <p style={{ marginTop: "16px" }}>Today, KARUWORKS is a trusted name across Nairobi and beyond. We combine formal engineering training with practical, hands-on problem solving to deliver results that last. Whether it's a broken fridge in Karen or a custom fabrication project in Thika, we show up with the right skills and the right attitude.</p>
               </div>
               <div className="about-img-wrap">
-                <img
+                {/* <img
                   src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=700&q=80"
                   alt="KARUWORKS workshop"
                   className="about-img"
-                />
+                /> */}
               </div>
             </div>
           </div>
