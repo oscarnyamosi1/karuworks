@@ -4,6 +4,7 @@ import React from "react";
 // import Loader from "@/components/Loader";
 import { Check, VenetianMask, Verified } from "lucide-react";
 import SEO from "@/components/SEO"
+import ImpactSEO from "@/components/ImpactSEO";
 
 // interface Invention {
 //   title: string;
@@ -162,6 +163,8 @@ export default function Home() {
         image="https://karuworks.com/logo.png"
         keywords="karuworks,karu,kaluworks,fridge repair,repairs,kisii,engineering kisii, robotics, software, innovation"
       />
+
+      <ImpactSEO />
 
       <div className="home">
         {/* HERO (unchanged) */}
