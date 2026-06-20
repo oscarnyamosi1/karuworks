@@ -1,6 +1,6 @@
 import "./About.css";
 import { CheckCircleIcon,SchoolIcon } from "lucide-react";
-import SEO from @/components/SEO;
+import SEO from "@/components/SEO";
 
 const values = [
   {
