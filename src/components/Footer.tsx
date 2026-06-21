@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import "./Footer.css";
+import Logo from "./Logo";
 
 export default function Footer() {
   return (
@@ -8,9 +9,7 @@ export default function Footer() {
         <div className="container">
           <div className="footer-grid">
             <div className="footer-brand">
-              <div className="footer-logo">
-                KARU<span>WORKS</span>
-              </div>
+              <Logo variant="footer" linkTo="/" />
               <p className="footer-tagline">
                 Innovating, Repairing, and Building Solutions for Africa. A Kenyan engineering company dedicated to excellence.
               </p>
@@ -24,6 +23,12 @@ export default function Footer() {
                 <a href="tel:+254708458281" className="social-btn call" aria-label="Call">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.63 3.18 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 5.57 5.57l1.24-1.24a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
+                </a>
+                <a href="mailto:info@karuworks.co.ke" className="social-btn email" aria-label="Email">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
                   </svg>
                 </a>
               </div>
@@ -43,11 +48,11 @@ export default function Footer() {
             <div className="footer-col">
               <h4>Our Services</h4>
               <ul>
-                <li><a href="/services">Home Appliance Repair</a></li>
-                <li><a href="/services">Machine Fabrication</a></li>
-                <li><a href="/services">Industrial Installations</a></li>
-                <li><a href="/services">Recycling Solutions</a></li>
-                <li><a href="/services">Solar Installation</a></li>
+                <li><Link href="/services">Home Appliance Repair</Link></li>
+                <li><Link href="/services">Machine Fabrication</Link></li>
+                <li><Link href="/services">Industrial Installations</Link></li>
+                <li><Link href="/services">Recycling Solutions</Link></li>
+                <li><Link href="/services">Solar Installation</Link></li>
               </ul>
             </div>
 

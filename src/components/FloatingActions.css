@@ -4,61 +4,150 @@
   right: 24px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  align-items: flex-end;
+  gap: 10px;
   z-index: 900;
 }
 
-.fab {
+/* Toggle button — always visible */
+.fab-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 18px;
+  border-radius: 50px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(232,84,26,0.45);
+  transition: all 0.25s cubic-bezier(0.4,0,0.2,1);
+  min-width: 44px;
+  min-height: 44px;
+}
+
+.fab-toggle:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 28px rgba(232,84,26,0.5);
+}
+
+.floating-actions.is-expanded .fab-toggle {
+  background: var(--secondary);
+  box-shadow: 0 4px 20px rgba(27,42,74,0.4);
+}
+
+.fab-toggle-hint {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.fab-toggle-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* Expandable menu */
+.fab-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: max-height 0.35s cubic-bezier(0.4,0,0.2,1),
+              opacity 0.25s ease;
+}
+
+.floating-actions.is-expanded .fab-menu {
+  max-height: 280px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Each menu item */
+.fab-item {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 14px 18px;
+  padding: 11px 16px;
   border-radius: 50px;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 700;
-  color: #fff;
-  cursor: pointer;
-  text-decoration: none;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: hidden;
-  white-space: nowrap;
-  max-width: 52px;
-}
-
-.fab:hover {
-  max-width: 160px;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(0,0,0,0.3);
-}
-
-.fab-label {
-  opacity: 0;
-  transform: translateX(8px);
-  transition: opacity 0.2s ease, transform 0.2s ease;
   letter-spacing: 0.04em;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  transition: all 0.2s cubic-bezier(0.4,0,0.2,1);
+  white-space: nowrap;
+  min-height: 44px;
 }
 
-.fab:hover .fab-label {
-  opacity: 1;
-  transform: translateX(0);
+.fab-item:hover {
+  transform: translateX(-4px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.28);
 }
 
-.fab-whatsapp {
+.fab-item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.fab-item-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.fab-item--whatsapp {
   background: #25d366;
 }
 
-.fab-whatsapp:hover {
+.fab-item--whatsapp:hover {
   background: #20bb5a;
 }
 
-.fab-call {
+.fab-item--call {
   background: var(--primary);
 }
 
-.fab-call:hover {
+.fab-item--call:hover {
   background: var(--primary-dark);
 }
+
+.fab-item--email {
+  background: var(--secondary);
+}
+
+.fab-item--email:hover {
+  background: var(--secondary-light);
+}
+
+.fab-item--location {
+  background: #6c63ff;
+}
+
+.fab-item--location:hover {
+  background: #5a52d5;
+}
+
+/* Stagger animation for items */
+.floating-actions.is-expanded .fab-item:nth-child(1) { transition-delay: 0.05s; }
+.floating-actions.is-expanded .fab-item:nth-child(2) { transition-delay: 0.1s; }
+.floating-actions.is-expanded .fab-item:nth-child(3) { transition-delay: 0.15s; }
+.floating-actions.is-expanded .fab-item:nth-child(4) { transition-delay: 0.2s; }
 
 @media (max-width: 600px) {
   .floating-actions {
@@ -66,21 +155,11 @@
     right: 16px;
   }
 
-  .fab {
-    padding: 13px 16px;
-    min-width:140px;
+  .fab-toggle {
+    padding: 12px 16px;
   }
 
-.fab-label {
-  opacity: 1;
-  transform: translateX(0);
-}
-.fab-call .fab-label {
-  opacity:1;
-}
-
-
-  .fab:hover {
-    max-width: 140px;
+  .fab-item {
+    padding: 10px 14px;
   }
 }

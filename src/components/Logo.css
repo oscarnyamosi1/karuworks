@@ -1,0 +1,101 @@
+.logo-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-mark {
+  width: 36px;
+  height: 36px;
+  border-radius: 5px;
+  background: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  object-fit: contain;
+  gap: 1px;
+}
+
+.logo-mark-k {
+  font-size: 0.85rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.logo-mark-w {
+  font-size: 0.85rem;
+  font-weight: 900;
+  color: rgba(255,255,255,0.75);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.logo-text-wrap {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.logo-wordmark {
+  font-size: 1.15rem;
+  font-weight: 900;
+  color: var(--fg);
+  letter-spacing: 0.04em;
+}
+
+.logo-wordmark span {
+  color: var(--primary);
+}
+
+.logo-sub {
+  font-size: 0.6rem;
+  color: var(--fg-subtle);
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  margin-top: 2px;
+  text-transform: uppercase;
+}
+
+/* Footer variant */
+.logo--footer .logo-mark {
+  width: 42px;
+  height: 42px;
+}
+
+.logo--footer .logo-wordmark {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.logo--footer .logo-sub {
+  color: rgba(255,255,255,0.5);
+}
+
+/* Hero variant */
+.logo--hero .logo-mark {
+  width: 52px;
+  height: 52px;
+}
+
+.logo--hero .logo-mark-k,
+.logo--hero .logo-mark-w {
+  font-size: 1.1rem;
+}
+
+.logo--hero .logo-wordmark {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.logo--hero .logo-sub {
+  color: rgba(255,255,255,0.6);
+  font-size: 0.65rem;
+}
