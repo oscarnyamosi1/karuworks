@@ -46,17 +46,17 @@ const values = [
 
 const team = [
   {
-    name: "Staff #1",
+    name: "Augustine Barongo",
     role: "Founder & Lead Engineer",
     image: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782088428/IMG-20260616-WA0008_su9cjy.jpg",
   },
   {
-    name: "Staff #2",
+    name: "Hykarus Ondimu",
     role: "Operations Manager",
     image:"https://res.cloudinary.com/dw0l7b86h/image/upload/v1782130618/Screenshot_from_2026-06-22_14-49-28_htcumo.png",
   },
   {
-    name: "Staff #3 ",
+    name: "Geofrey Nyaberi",
     role: "Senior Technician",
     image: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781810882/vlcsnap-2026-06-17-04h23m03s833_jui5ru.png",
     // image: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781811392/IMG-20260616-WA0007_vrpx21.jpg",
