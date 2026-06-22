@@ -68,7 +68,7 @@ export default function About() {
     <>
       <SEO
         title="About | Karuworks the best engineering and fabrication company in Kisii & Kenya"
-        description="Karuworks builds innovative software, robotics, and creative digital projects.We operate in and around Kisii,Nyamira ,Kericho,Kisumu,Eldoret in Kenya"
+        description="Karuworks builds innovative software, robotics, and creative digital projects.We operate in and around Kisii,Kericho,Kisumu,Eldoret in Kenya"
         url="https://karuworks.com"
         image="https://karuworks.com/og-image.png"
         keywords="karuworks, robotics, software, innovation"
