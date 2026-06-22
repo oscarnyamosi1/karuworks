@@ -40,7 +40,7 @@ const values = [
       </svg>
     ),
     title: "Sustainability",
-    desc: "Our recycling programs and solar solutions contribute to a greener, more resilient Africa.",
+    desc: "Our recycling programs and innovations contribute to a greener and more efficient, more resilient Africa.",
   },
 ];
 
