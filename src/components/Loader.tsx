@@ -16,7 +16,7 @@ export default function Loader() {
   return (
     <div id="loader">
     
-      <img src="/loaderlogo.png" alt="KaruWorks Logo" />
+      <img src="/loaderlogo.png" alt="KaruWorks Logo" loading="eager" />
       <div className="loader-logo">
         Karu  <span>Works.</span>
       </div>
