@@ -21,6 +21,10 @@
   object-fit: contain;
   gap: 1px;
 }
+.logo-mark img {
+  border-radius: 5px;
+  border:none;
+}
 
 .logo-mark-k {
   font-size: 0.85rem;

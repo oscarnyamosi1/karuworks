@@ -10,8 +10,9 @@ export default function Logo({ variant = "nav", linkTo = "/" }: LogoProps) {
   const inner = (
     <div className={`logo logo--${variant}`}>
       <div className="logo-mark">
-        <span className="logo-mark-k">K</span>
-        <span className="logo-mark-w">W</span>
+        {/* <span className="logo-mark-k">K</span>
+        <span className="logo-mark-w">W</span> */}
+        <img src="/logo.png" alt="Logo" />
       </div>
       <div className="logo-text-wrap">
         <span className="logo-wordmark">KARU<span>WORKS</span></span>
