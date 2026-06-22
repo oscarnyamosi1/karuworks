@@ -187,7 +187,7 @@ export default function Services() {
             </div>
             <div>
               <h3>Transparent, Upfront Pricing</h3>
-              <p>We assess your equipment first, then give you a clear quote — no surprises, no hidden costs. All repairs come with a 3-month warranty.</p>
+              <p>We assess your equipment first, then give you a clear quote — no surprises, no hidden costs. All repairs come with a 90 days warranty.</p>
             </div>
             <a href="/contact" className="btn btn-primary">Request Assessment</a>
           </div>
