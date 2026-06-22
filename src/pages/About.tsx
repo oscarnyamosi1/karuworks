@@ -48,12 +48,12 @@ const team = [
   {
     name: "Staff #1",
     role: "Founder & Lead Engineer",
-    image: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781810882/vlcsnap-2026-06-17-04h23m03s833_jui5ru.png",
+    image: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782088428/IMG-20260616-WA0008_su9cjy.jpg",
   },
   {
     name: "Staff #2",
     role: "Operations Manager",
-    image: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782088428/IMG-20260616-WA0008_su9cjy.jpg",
+    image: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781810882/vlcsnap-2026-06-17-04h23m03s833_jui5ru.png",
   },
   {
     name: "Staff #3 ",
