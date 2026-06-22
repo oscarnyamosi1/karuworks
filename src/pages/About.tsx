@@ -2,6 +2,7 @@ import "./About.css";
 import { CheckCircleIcon,SchoolIcon } from "lucide-react";
 import SEO from "@/components/SEO";
 import ImpactSEO from "@/components/ImpactSEO";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const values = [
   {
@@ -79,6 +80,7 @@ export default function About() {
         keywords="karuworks, robotics, software, innovation"
       />
       <ImpactSEO />
+      <ScrollToTop />
       <div className="about">
         <div className="page-hero about-hero">
           <img src="https://res.cloudinary.com/dw0l7b86h/image/upload/v1781810910/vlcsnap-2026-06-17-04h23m05s409_hnhcmz.png" alt="Karu works staff repairing a leaking gas cooker at kisii school" className="page-hero-overlay" />

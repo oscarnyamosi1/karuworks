@@ -74,7 +74,7 @@ export default function FloatingActions() {
         </a>
 
         <a
-          href="https://www.google.com/maps/search/Nairobi+Kenya"
+          href="https://www.google.com/maps/search/Kisii+Kenya"
           target="_blank"
           rel="noopener noreferrer"
           className="fab-item fab-item--location"
