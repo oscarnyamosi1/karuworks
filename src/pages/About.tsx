@@ -58,13 +58,8 @@ const team = [
   {
     name: "Geofrey Nyaberi",
     role: "Senior Technician",
-    image: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781810882/vlcsnap-2026-06-17-04h23m03s833_jui5ru.png",
+    image: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782143443/staff_cv0h4u.jpg",
     // image: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781811392/IMG-20260616-WA0007_vrpx21.jpg",
-  },
-  {
-    name: "Staff #4",
-    role: "Solar & Electrical Lead",
-    image: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781810844/vlcsnap-2026-06-17-04h25m11s196_yjt5f5.png",
   },
 ];
 
