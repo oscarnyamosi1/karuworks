@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import Loader from "@/components/Loader";
 import "./Home.css";
 import { useState } from "react";
 import { Check, Verified } from "lucide-react";
@@ -140,36 +141,39 @@ function MediaCard({ item }: { item: typeof inventions[0] }) {
   const isVideo = item.media.type === "video";
 
   return (
-    <div className="media-card">
-      <a
-        href={item.media.link !== "#" ? item.media.link : undefined}
-        target={item.media.link !== "#" ? "_blank" : undefined}
-        rel="noopener noreferrer"
-        className={`media-card-visual${isVideo ? " media-card-visual--video" : ""}`}
-        aria-label={isVideo ? `Play video: ${item.title}` : item.title}
-        onClick={item.media.link === "#" ? (e) => e.preventDefault() : undefined}
-      >
-        <img
-          src={item.media.url}
-          alt={item.title}
-          loading="lazy"
-          className="media-card-img"
-        />
-        {isVideo && (
-          <div className="video-play-overlay">
-            <div className="video-play-btn" aria-hidden="true">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
-                <polygon points="5 3 19 12 5 21 5 3"/>
-              </svg>
+    <>
+      <Loader />
+      <div className="media-card">
+        <a
+          href={item.media.link !== "#" ? item.media.link : undefined}
+          target={item.media.link !== "#" ? "_blank" : undefined}
+          rel="noopener noreferrer"
+          className={`media-card-visual${isVideo ? " media-card-visual--video" : ""}`}
+          aria-label={isVideo ? `Play video: ${item.title}` : item.title}
+          onClick={item.media.link === "#" ? (e) => e.preventDefault() : undefined}
+        >
+          <img
+            src={item.media.url}
+            alt={item.title}
+            loading="lazy"
+            className="media-card-img"
+          />
+          {isVideo && (
+            <div className="video-play-overlay">
+              <div className="video-play-btn" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                  <polygon points="5 3 19 12 5 21 5 3"/>
+                </svg>
+              </div>
             </div>
-          </div>
-        )}
-      </a>
-      <div className="media-card-belt">
-        <span className="media-card-title">{item.title}</span>
-        <p className="media-card-desc">{item.desc}</p>
+          )}
+        </a>
+        <div className="media-card-belt">
+          <span className="media-card-title">{item.title}</span>
+          <p className="media-card-desc">{item.desc}</p>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

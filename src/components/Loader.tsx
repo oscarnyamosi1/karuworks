@@ -6,7 +6,7 @@ export default function Loader() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setVisible(false);
-    }, 2500)
+    }, 1000)
 
     return () => clearTimeout(timer);
   }, []);
@@ -16,7 +16,7 @@ export default function Loader() {
   return (
     <div id="loader">
     
-      <img src="/logo.png" alt="KaruWorks Logo" />
+      <img src="/loaderlogo.png" alt="KaruWorks Logo" />
       <div className="loader-logo">
         Karu  <span>Works.</span>
       </div>
