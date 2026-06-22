@@ -17,11 +17,11 @@ const inventions = [
   },
   {
     title: "Sukumawiki Cutting Machine",
-    desc: "Designed for fast, uniform cutting of sukumawiki in bulk for homes, schools, and institutions.",
+    desc: "Designed for fast, uniform cutting of sukumawiki in bulk for homes, schools, and institutions.This was during a demonstration at a school.",
     media: {
-      type: "image" as const,
-      url: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781812282/skuma1_wg0lpp.png",
-      link: "#",
+      type: "video" as const,
+      url: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782084653/Screenshot_from_2026-06-22_02-22-15_njq1xi.png",
+      link: "https://www.youtube.com/watch?v=9JrTxXgA-gA",
     },
   },
   {
@@ -42,6 +42,15 @@ const inventions = [
       link: "#",
     },
   },
+    {
+    title: "Manual (Kale) Sukumawiki slicer/chopper.",
+    desc: "Reliable manual slicer for vegetables for mama mboga,schools,hispitals,households and the farm .",
+    media: {
+      type: "video" as const,
+      url: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782084472/Screenshot_from_2026-06-22_02-25-14_t4nrsd.png",
+      link: "https://www.youtube.com/watch?v=ZC1v83GFMM8",
+    },
+  },
   {
     title: "Stand Cookers",
     desc: "Heavy-duty stand cookers built for institutions, hotels, and large kitchens.",
@@ -60,6 +69,15 @@ const inventions = [
       link: "#",
     },
   },
+    {
+    title: "Our Glass recycling and Mill machines",
+    desc: "Reliable diagnostics and repair services for domestic and commercial refrigeration systems.",
+    media: {
+      type: "video" as const,
+      url: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782083758/Screenshot_from_2026-06-22_02-13-03_ofhbgm.png",
+      link: "https://www.youtube.com/watch?v=mzOCQiSs1J4",
+    },
+  },
   {
     title: "Fridge & Freezer Repairs",
     desc: "Reliable diagnostics and repair services for domestic and commercial refrigeration systems.",
@@ -69,6 +87,7 @@ const inventions = [
       link: "#",
     },
   },
+
 ];
 
 const stats = [

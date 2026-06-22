@@ -9,28 +9,28 @@ const galleryItems = [
     category: "Appliance Repair",
     title: "Fridge Repair",
     image:
-      "/gallery/cooler-repair.png",
+      "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781812294/vlcsnap-2026-06-17-16h31m52s729_tzou7k.png",
   },
   {
     id: 2,
-    category: "Solar",
+    category: "Appliance Repair",
     title: "washing machine repair",
     image:
-      "/gallery/vlcsnap-2026-06-17-04h24m27s421.png",
+      "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781810853/vlcsnap-2026-06-17-04h24m27s421_zbsfyr.png",
   },
   {
     id: 3,
     category: "Fabrication",
     title: "Custom Metal Frame",
     image:
-      "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&q=80",
+      "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782084472/Screenshot_from_2026-06-22_02-25-14_t4nrsd.png",
   },
   {
     id: 4,
     category: "Industrial",
     title: "Borehole Pump Setup",
     image:
-      "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=600&q=80",
+      "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782083758/Screenshot_from_2026-06-22_02-13-03_ofhbgm.png",
   },
   {
     id: 5,
@@ -44,14 +44,14 @@ const galleryItems = [
     category: "Appliance Repair",
     title: "Cooker Repair",
     image:
-      "/gallery/vlcsnap-2026-06-17-04h17m04s349.png",
+      "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781811395/IMG-20260616-WA0001_c655un.jpg",
   },
   {
     id: 7,
     category: "Fabrication",
     title: "Maize Thresher Build",
     image:
-      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80",
+      "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781810932/freezer-repair_orya29.png",
   },
   {
     id: 8,
