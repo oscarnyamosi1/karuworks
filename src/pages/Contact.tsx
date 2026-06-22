@@ -82,7 +82,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="contact-card-label">Email</p>
-                    <p className="contact-card-value">info@karuworks.co.ke</p>
+                    <p className="contact-card-value">augustinebarongo639@gmail.com</p>
                     <p className="contact-card-sub">We reply within 24 hours</p>
                   </div>
                 </div>
@@ -96,7 +96,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="contact-card-label">Location</p>
-                    <p className="contact-card-value">Nairobi, Kenya</p>
+                    <p className="contact-card-value">Kisii, Kenya</p>
                     <p className="contact-card-sub">We also do on-site visits</p>
                   </div>
                 </div>

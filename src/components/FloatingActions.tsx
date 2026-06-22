@@ -59,7 +59,7 @@ export default function FloatingActions() {
         </a>
 
         <a
-          href="mailto:info@karuworks.co.ke"
+          href="mailto:augustinebarongo639@gmail.com"
           className="fab-item fab-item--email"
           tabIndex={expanded ? 0 : -1}
           aria-label="Email us"
