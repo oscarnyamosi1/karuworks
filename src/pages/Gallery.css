@@ -4,7 +4,7 @@
 
 .gallery-hero {
   background: linear-gradient(135deg, var(--secondary) 0%, #0a1628 100%);
-  background-image: url('https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1400&q=80');
+  background-image: url('https://res.cloudinary.com/dw0l7b86h/image/upload/v1782084472/Screenshot_from_2026-06-22_02-25-14_t4nrsd.png?w=1400&q=80');
   background-size: cover;
   background-position: center;
 }

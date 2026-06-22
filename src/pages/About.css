@@ -13,7 +13,7 @@
 
 .about-hero {
   background: linear-gradient(135deg, var(--secondary) 0%, #0f1f3d 100%);
-  background-image: url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1400&q=80');
+  /* background-image: url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1400&q=80'); */
   background-size: cover;
   background-position: center;
 }

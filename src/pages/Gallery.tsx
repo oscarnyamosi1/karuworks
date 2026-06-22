@@ -37,7 +37,7 @@ const galleryItems = [
     category: "Recycling",
     title: "Glass Recycling Processing",
     image:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+      "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782132703/Screenshot_from_2026-06-22_15-49-40_fkgjcy.png?w=600&q=80",
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ const galleryItems = [
     category: "Fabrication",
     title: "Maize Thresher Build",
     image:
-      "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781810932/freezer-repair_orya29.png",
+      "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782083758/Screenshot_from_2026-06-22_02-13-03_ofhbgm.png?w=600&q=80",
   },
   {
     id: 8,
@@ -65,14 +65,14 @@ const galleryItems = [
     category: "Industrial",
     title: "Electrical Installation",
     image:
-      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=80",
+      "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781810941/vlcsnap-2026-06-17-04h16m54s865_nldgsj.png?w=600&q=80",
   },
   {
     id: 10,
     category: "Appliance Repair",
     title: "Cooker Repair",
     image:
-      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80",
+      "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781810926/vlcsnap-2026-06-17-04h22m35s780_vnqfwm.png?w=600&q=80",
   },
   {
     id: 11,
@@ -86,7 +86,7 @@ const galleryItems = [
     category: "Fabrication",
     title: "Tank Fabrication",
     image:
-      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80",
+      "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781812306/vlcsnap-2026-06-17-18h05m19s509_kxnnq8.png?w=600&q=80",
   },
 ];
 

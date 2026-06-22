@@ -37,9 +37,9 @@ const inventions = [
     title: "Incubators",
     desc: "Efficient egg incubation systems for poultry farmers with stable temperature control.",
     media: {
-      type: "image" as const,
-      url: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781810913/vlcsnap-2026-06-17-04h23m32s438_vo51zg.png",
-      link: "#",
+      type: "video" as const,
+      url: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782130618/Screenshot_from_2026-06-22_14-49-28_htcumo.png",
+      link: "https://youtu.be/8MNoTzMbYHk?si=AvUSMjzvoLphrAFo",
     },
   },
     {
@@ -113,12 +113,12 @@ const institutions = [
     name: "Kebirigo High School",
     projects: ["Sukuma wiki Cutting Machine (Automatic)"],
   },
-  {
+   {
     id: 4,
-    name: "Gekano Girls High School",
-    projects: ["Ugali Cooking Machine (heavy duty)", "Sukuma wiki Cutting Machine (Automatic)"],
+    name: "Christa Marianne Hospital",
+    projects: ["Ugali Cooking Machine (heavy duty)", "Cooler Repair", "Solar Heater Repair"],
   },
-  {
+    {
     id: 5,
     name: "Kisii High School (Kisii School)",
     projects: ["Ugali Cooking Machine (heavy duty)", "Sukuma wiki Cutting Machine (Automatic)"],
@@ -130,9 +130,10 @@ const institutions = [
   },
   {
     id: 7,
-    name: "Christa Marianne Hospital",
-    projects: ["Ugali Cooking Machine (heavy duty)", "Cooler Repair", "Solar Heater Repair"],
+    name: "Gekano Girls High School",
+    projects: ["Ugali Cooking Machine (heavy duty)", "Sukuma wiki Cutting Machine (Automatic)"],
   },
+ 
 ];
 
 function MediaCard({ item }: { item: typeof inventions[0] }) {

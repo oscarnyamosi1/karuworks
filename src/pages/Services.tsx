@@ -5,7 +5,7 @@ const servicesList = [
     id: "appliances",
     title: "Home Appliance Repair",
     subtitle: "Fast, reliable, and affordable",
-    heroImage: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+    heroImage: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781812297/vlcsnap-2026-06-17-16h31m32s850_ag7ho0.png",
     icon: (
       <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M5 6a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2zm0 4h14m-4-3v6"/>
@@ -26,7 +26,7 @@ const servicesList = [
     id: "fabrication",
     title: "Machine Fabrication",
     subtitle: "Custom-built for your needs",
-    heroImage: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&q=80",
+    heroImage: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782084472/Screenshot_from_2026-06-22_02-25-14_t4nrsd.png",
     icon: (
       <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
@@ -68,7 +68,7 @@ const servicesList = [
     id: "industrial",
     title: "Industrial Installations",
     subtitle: "Powering businesses forward",
-    heroImage: "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=800&q=80",
+    heroImage: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782083758/Screenshot_from_2026-06-22_02-13-03_ofhbgm.png",
     icon: (
       <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/>
@@ -94,7 +94,7 @@ const servicesList = [
     id: "electronics",
     title: "Electronic Repair",
     subtitle: "Precision diagnostics and repair",
-    heroImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+    heroImage: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781810935/vlcsnap-2026-06-17-04h14m24s272_qkn8ys.png",
     icon: (
       <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/>
