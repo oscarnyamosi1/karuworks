@@ -72,7 +72,7 @@ const inventions = [
   },
     {
     title: "Our Glass recycling and Mill machines",
-    desc: "Reliable diagnostics and repair services for domestic and commercial refrigeration systems.",
+    desc: "We have designed and built glass recycling and milling machines for sustainable waste management and resource recovery.",
     media: {
       type: "video" as const,
       url: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782083758/Screenshot_from_2026-06-22_02-13-03_ofhbgm.png",

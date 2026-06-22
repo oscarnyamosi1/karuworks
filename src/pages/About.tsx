@@ -92,8 +92,8 @@ export default function About() {
                 <span className="tag">Our Story</span>
                 <h2>Built in Kenya, Built for Africa</h2>
                 <span className="section-accent" style={{ margin: "12px 0 20px", display: "block" }} />
-                <p>KARUWORKS was founded with a clear purpose: to bring world-class engineering expertise to everyday Kenyan homes and businesses. Our founder, Joseph Karua, started the company after recognizing a critical gap — people were throwing away appliances that could easily be repaired, and businesses struggled to find reliable technical partners.</p>
-                <p style={{ marginTop: "16px" }}>Today, KARUWORKS is a trusted name across Kisii,Oyugis,Kericho,Nyamira,Oyugis,Migori,Nairobi and beyond. We combine formal engineering training with practical, hands-on problem solving to deliver results that last. Whether it's a broken fridge in Karen or a custom fabrication project in Thika, we show up with the right skills and the right attitude.</p>
+                <p>KARUWORKS was founded with a clear purpose: to bring world-class engineering expertise to everyday Kenyan homes and businesses. Our founder, Augustine Barongo, started the company after recognizing a critical gap — people were throwing away appliances that could easily be repaired, and businesses struggled to find reliable technical partners.</p>
+                <p style={{ marginTop: "16px" }}>Today, KARUWORKS is a trusted name across Kisii,Nyamira,Oyugis,Kericho,Nyamira,Oyugis,Migori,Nairobi and beyond. We combine formal engineering training with practical, hands-on problem solving to deliver results that last. Whether it's a broken fridge in Kisii,Nairobi,Kericho or a custom fabrication project in Thika, we show up with the right skills and the right attitude.</p>
               </div>
               <div className="about-img-wrap">
                 {/* <img
